@@ -17,7 +17,7 @@ class TODOView extends StatefulWidget {
 }
 
 class _TODOViewState extends State<TODOView> {
-  var todoList = ['TODO1','TODO2','TODO3'];
+  var todoList = [];
 
   final inputController = TextEditingController();
   @override
